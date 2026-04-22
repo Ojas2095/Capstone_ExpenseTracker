@@ -1,0 +1,18 @@
+# Compiled Java class files
+*.class
+bin/
+out/
+
+# Node/React Frontend leftovers (Do NOT push to GitHub)
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Eclipse configuration files (optional, but good to ignore so they rebuild cleanly)
+.metadata/
+.recommenders/
+*.launch
+
+# We intentionally do NOT ignore *.jar files! 
+# We want to commit the mysql-connector-j-8.3.0.jar so it pulls down into Eclipse!
